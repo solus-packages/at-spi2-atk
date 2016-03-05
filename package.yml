@@ -1,6 +1,6 @@
 name        : at-spi2-atk
 version     : 2.18.1
-release     : 5
+release     : 6
 source     :
     - http://ftp.gnome.org/pub/gnome/sources/at-spi2-atk/2.18/at-spi2-atk-2.18.1.tar.xz : c4b15f9386d34d464ddad5f6cc85669742c016df87141ceee93513245979c12d
 license     :
