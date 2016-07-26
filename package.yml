@@ -1,8 +1,8 @@
 name       : at-spi2-atk
-version    : 2.18.1
-release    : 8
+version    : 2.20.1
+release    : 9
 source     :
-    - http://ftp.gnome.org/pub/gnome/sources/at-spi2-atk/2.18/at-spi2-atk-2.18.1.tar.xz : c4b15f9386d34d464ddad5f6cc85669742c016df87141ceee93513245979c12d
+    - http://ftp.gnome.org/pub/gnome/sources/at-spi2-atk/2.20/at-spi2-atk-2.20.1.tar.xz : 2358a794e918e8f47ce0c7370eee8fc8a6207ff1afe976ec9ff547a03277bf8e
 license    :
     - GPL-3.0
 summary    : Accessibility toolkit - ATK D-Bus Bridge
