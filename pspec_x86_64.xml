@@ -72,7 +72,45 @@
         <Update release="9">
             <Date>2016-07-26</Date>
             <Version>2.20.1</Version>
-            <Comment>Packaging update</Comment>
+            <Comment>Update to 2.20.1
+
+Signed-off-by: Ikey Doherty &lt;ikey@solus-project.com&gt;</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+        <Update release="8">
+            <Date>2016-06-04</Date>
+            <Version>2.18.1</Version>
+            <Comment>Enable multilib
+
+Signed-off-by: Ikey Doherty &lt;ikey@solus-project.com&gt;</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+        <Update release="7">
+            <Date>2016-03-09</Date>
+            <Version>2.18.1</Version>
+            <Comment>Rebuild
+
+Signed-off-by: Ikey Doherty &lt;ikey@solus-project.com&gt;</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+        <Update release="6">
+            <Date>2016-03-05</Date>
+            <Version>2.18.1</Version>
+            <Comment>Rebuild for cflags
+
+Signed-off-by: Ikey Doherty &lt;ikey@solus-project.com&gt;</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+        <Update release="5">
+            <Date>2015-11-06</Date>
+            <Version>2.18.1</Version>
+            <Comment>Update to 2.18.1 - replace old packaging
+
+Signed-off-by: Ikey Doherty &lt;ikey@solus-project.com&gt;</Comment>
             <Name>Ikey Doherty</Name>
             <Email>ikey@solus-project.com</Email>
         </Update>
