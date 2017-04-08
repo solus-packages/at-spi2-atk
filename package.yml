@@ -1,6 +1,6 @@
 name       : at-spi2-atk
 version    : 2.22.0
-release    : 10
+release    : 11
 source     :
     - http://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/2.22/at-spi2-atk-2.22.0.tar.xz : e8bdedbeb873eb229eb08c88e11d07713ec25ae175251648ad1a9da6c21113c1
 license    :
@@ -12,6 +12,8 @@ builddeps  :
     - pkgconfig32(atk)
     - pkgconfig(atspi-2)
     - pkgconfig32(atspi-2)
+    - pkgconfig(dbus-1)
+    - pkgconfig32(dbus-1)
     - pkgconfig32(glib-2.0)
 emul32     : yes
 description: |
