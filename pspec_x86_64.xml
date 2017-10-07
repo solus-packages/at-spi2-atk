@@ -2,8 +2,8 @@
     <Source>
         <Name>at-spi2-atk</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop.gtk</PartOf>
@@ -31,7 +31,7 @@
 </Description>
         <PartOf>emul32</PartOf>
         <RuntimeDependencies>
-            <Dependency release="11">at-spi2-atk</Dependency>
+            <Dependency release="12">at-spi2-atk</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/</Path>
@@ -45,8 +45,8 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="11">at-spi2-atk-devel</Dependency>
-            <Dependency release="11">at-spi2-atk-32bit</Dependency>
+            <Dependency release="12">at-spi2-atk-devel</Dependency>
+            <Dependency release="12">at-spi2-atk-32bit</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/lib*.so</Path>
@@ -60,7 +60,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="11">at-spi2-atk</Dependency>
+            <Dependency release="12">at-spi2-atk</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -69,12 +69,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2017-04-08</Date>
-            <Version>2.22.0</Version>
+        <Update release="12">
+            <Date>2017-10-07</Date>
+            <Version>2.26.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>

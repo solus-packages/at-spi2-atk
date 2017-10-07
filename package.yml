@@ -1,8 +1,8 @@
 name       : at-spi2-atk
-version    : 2.22.0
-release    : 11
+version    : 2.26.0
+release    : 12
 source     :
-    - http://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/2.22/at-spi2-atk-2.22.0.tar.xz : e8bdedbeb873eb229eb08c88e11d07713ec25ae175251648ad1a9da6c21113c1
+    - https://download.gnome.org/sources/at-spi2-atk/2.26/at-spi2-atk-2.26.0.tar.xz : d25e528e1406a10c7d9b675aa15e638bcbf0a122ca3681f655a30cce83272fb9
 license    :
     - GPL-3.0
 component  : desktop.gtk
