@@ -2,8 +2,8 @@
     <Source>
         <Name>at-spi2-atk</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.gtk</PartOf>
@@ -21,7 +21,8 @@
         <Files>
             <Path fileType="library">/usr/lib64/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop</Path>
             <Path fileType="library">/usr/lib64/gtk-2.0/modules/libatk-bridge.so</Path>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib64/libatk-bridge-2.0.so.0</Path>
+            <Path fileType="library">/usr/lib64/libatk-bridge-2.0.so.0.0.0</Path>
         </Files>
     </Package>
     <Package>
@@ -31,11 +32,12 @@
 </Description>
         <PartOf>emul32</PartOf>
         <RuntimeDependencies>
-            <Dependency release="14">at-spi2-atk</Dependency>
+            <Dependency release="16">at-spi2-atk</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="library">/usr/lib32/</Path>
-            <Path fileType="library">/usr/lib32/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib32/gtk-2.0/modules/libatk-bridge.so</Path>
+            <Path fileType="library">/usr/lib32/libatk-bridge-2.0.so.0</Path>
+            <Path fileType="library">/usr/lib32/libatk-bridge-2.0.so.0.0.0</Path>
         </Files>
     </Package>
     <Package>
@@ -45,12 +47,12 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="14">at-spi2-atk-devel</Dependency>
-            <Dependency release="14">at-spi2-atk-32bit</Dependency>
+            <Dependency release="16">at-spi2-atk-devel</Dependency>
+            <Dependency release="16">at-spi2-atk-32bit</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="library">/usr/lib32/lib*.so</Path>
-            <Path fileType="data">/usr/lib32/pkgconfig/*.pc</Path>
+            <Path fileType="library">/usr/lib32/libatk-bridge-2.0.so</Path>
+            <Path fileType="data">/usr/lib32/pkgconfig/atk-bridge-2.0.pc</Path>
         </Files>
     </Package>
     <Package>
@@ -60,21 +62,21 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="14">at-spi2-atk</Dependency>
+            <Dependency release="16">at-spi2-atk</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+            <Path fileType="header">/usr/include/at-spi2-atk/2.0/atk-bridge.h</Path>
+            <Path fileType="library">/usr/lib64/libatk-bridge-2.0.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/atk-bridge-2.0.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="14">
-            <Date>2018-04-21</Date>
+        <Update release="16">
+            <Date>2018-08-11</Date>
             <Version>2.26.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>

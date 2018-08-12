@@ -1,6 +1,6 @@
 name       : at-spi2-atk
 version    : 2.26.2
-release    : 15
+release    : 16
 source     :
     - https://download.gnome.org/sources/at-spi2-atk/2.26/at-spi2-atk-2.26.2.tar.xz : 61891f0abae1689f6617a963105a3f1dcdab5970c4a36ded9c79a7a544b16a6e
 license    : GPL-3.0-or-later
