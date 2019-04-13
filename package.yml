@@ -1,8 +1,8 @@
 name       : at-spi2-atk
-version    : 2.26.2
-release    : 17
+version    : 2.32.0
+release    : 18
 source     :
-    - https://download.gnome.org/sources/at-spi2-atk/2.26/at-spi2-atk-2.26.2.tar.xz : 61891f0abae1689f6617a963105a3f1dcdab5970c4a36ded9c79a7a544b16a6e
+    - https://download.gnome.org/sources/at-spi2-atk/2.32/at-spi2-atk-2.32.0.tar.xz : 0b51e6d339fa2bcca3a3e3159ccea574c67b107f1ac8b00047fa60e34ce7a45c
 license    : GPL-3.0-or-later
 component  : desktop.gtk
 summary    : Accessibility toolkit - ATK D-Bus Bridge
