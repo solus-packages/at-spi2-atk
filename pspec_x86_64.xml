@@ -5,7 +5,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-3.0-or-later</License>
+        <License>LGPL-2.1-or-later</License>
         <PartOf>desktop.gtk</PartOf>
         <Summary xml:lang="en">Accessibility toolkit - ATK D-Bus Bridge</Summary>
         <Description xml:lang="en">The At-Spi2 Atk package contains a library that bridges ATK to At-Spi2 D-Bus service.
@@ -32,7 +32,7 @@
 </Description>
         <PartOf>emul32</PartOf>
         <RuntimeDependencies>
-            <Dependency release="18">at-spi2-atk</Dependency>
+            <Dependency release="19">at-spi2-atk</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/gtk-2.0/modules/libatk-bridge.so</Path>
@@ -47,8 +47,8 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="18">at-spi2-atk-devel</Dependency>
-            <Dependency release="18">at-spi2-atk-32bit</Dependency>
+            <Dependency release="19">at-spi2-atk-devel</Dependency>
+            <Dependency release="19">at-spi2-atk-32bit</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/libatk-bridge-2.0.so</Path>
@@ -62,7 +62,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="18">at-spi2-atk</Dependency>
+            <Dependency release="19">at-spi2-atk</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/at-spi2-atk/2.0/atk-bridge.h</Path>
@@ -71,9 +71,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2019-04-13</Date>
-            <Version>2.32.0</Version>
+        <Update release="19">
+            <Date>2019-09-18</Date>
+            <Version>2.34.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
