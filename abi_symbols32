@@ -1,5 +1,6 @@
 libatk-bridge-2.0.so.0:_atk_bridge_find_property_func
-libatk-bridge-2.0.so.0:_atk_bridge_register_application
+libatk-bridge-2.0.so.0:_atk_bridge_remove_pending_application_registration
+libatk-bridge-2.0.so.0:_atk_bridge_schedule_application_registration
 libatk-bridge-2.0.so.0:_atk_bridge_type_from_iface
 libatk-bridge-2.0.so.0:append_properties
 libatk-bridge-2.0.so.0:atk_bridge_adaptor_cleanup
@@ -90,6 +91,7 @@ libatk-bridge-2.0.so.0:spi_register_object_to_ref
 libatk-bridge-2.0.so.0:spi_register_path_to_object
 libatk-bridge-2.0.so.0:spi_register_root_object_path
 libatk-bridge-2.0.so.0:spi_state_set_cache_from_sequence
+libatk-bridge-2.0.so.0:spi_timeout_add_full
 libatk-bridge-2.0.so.0:spi_timeout_add_seconds
 libatk-bridge-2.0.so.0:str_pair_equal
 libatk-bridge-2.0.so.0:str_pair_hash
