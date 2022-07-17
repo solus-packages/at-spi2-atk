@@ -189,6 +189,7 @@ libc.so.6:strcmp
 libc.so.6:strcspn
 libc.so.6:strlen
 libc.so.6:strncasecmp
+libc.so.6:strncmp
 libc.so.6:strtol
 libc.so.6:unlink
 libdbus-1.so.3:dbus_bus_add_match
