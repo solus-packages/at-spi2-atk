@@ -1,6 +1,6 @@
 name       : at-spi2-atk
 version    : 2.38.0
-release    : 24
+release    : 25
 source     :
     - https://download.gnome.org/sources/at-spi2-atk/2.38/at-spi2-atk-2.38.0.tar.xz : cfa008a5af822b36ae6287f18182c40c91dd699c55faa38605881ed175ca464f
 license    : LGPL-2.1-or-later
@@ -13,10 +13,10 @@ builddeps  :
     - pkgconfig32(atspi-2)
     - pkgconfig32(dbus-1)
     - pkgconfig32(glib-2.0)
+    - pkgconfig32(libgcrypt)
     - pkgconfig32(liblzma)
     - pkgconfig32(libxml-2.0)
     - pkgconfig32(libzstd)
-    - libgcrypt-32bit-devel
 emul32     : yes
 setup      : |
     %meson_configure
